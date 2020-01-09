@@ -1,0 +1,18 @@
+Salam,
+
+Ceci n'est qu'un test, utiliser les fichiers ci-joins à vos risques et périls.
+
+Comme le support de la langue amazighe transcrite en tifinaghe n'est pas encore disponible sur OpenOffice.org, les tests ont été réalisés, bien entendu sous système Gnu/Linus (Ubuntu Gutsy), avec l'éditeur de texte de gnome: Gedit.
+
+Copier les deux fichiers tifinagh.dic et tifinagh.aff dans  /usr/share/myspell/dicts/
+    sudo cp tifinagh.aff /usr/share/myspell/dicts/
+    sudo cp tifinagh.aff /usr/share/myspell/dicts
+
+Éditer le fichier /etc/openoffice/dictionary.lst pour y ajouter: 
+          DICT tifinagh
+          
+Sous Gedit, Outils -> Définir le langue pour y choisir inconnue (tifinagh) puis encore une fois, Outils -> vérification orthographique automatique
+
+Bonne correction!
+
+med.kebdani At gmail.com
