@@ -2,7 +2,7 @@ Name: hunspell-ber
 Summary: Amazigh hunspell dictionaries
 %define upstreamid 20080210
 Version: 0.%{upstreamid}
-Release: 7%{?dist}
+Release: 8%{?dist}
 Source: http://ayaspell.sourceforge.net/data/hunspell-am_test.tar.gz
 Group: Applications/Text
 URL: http://ayaspell.sourceforge.net/am.html
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20080210-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20080210-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
