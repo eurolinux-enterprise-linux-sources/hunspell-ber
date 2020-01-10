@@ -1,0 +1,75 @@
+SET	UTF-8
+TRY ⴰⵣⴻⵔⵜⵢⵓⵉⵄⵃⵇⵙⴷⴼⴳⵀⵊⴽⵍ-ⵎⵡⵅⵛⵖⴱⵏⵕⴹⴳⵯⵚⵟⴽⵥ
+
+NEEDAFFIX	X
+CIRCUMFIX	Y
+
+
+#Préfixes pour la conjugaison à l'accompli,
+
+PFX	a	Y	1
+PFX	a	0	ⵜⴰ/Y   .
+
+PFX	b	Y	1
+PFX	b	0	ⵢⴰ/Y   .
+
+PFX	c	Y	1
+PFX	c	0	ⵏⴰ/Y   .
+
+#Suffixes pour la conjugaison à l'accompli,
+
+SFX	A	Y	1
+SFX	A	0	ⴰⵖ   .
+
+SFX	B	Y	1
+SFX	B	0	ⴰⵜ/aY   .
+
+SFX	C	Y	1
+SFX	C	0	0/bY   .
+
+SFX	D	Y	1
+SFX	D	0	0/aY   .
+
+SFX	E	Y	1
+SFX	E	0	0/cY   .
+
+SFX	F	Y	1
+SFX	F	0	ⴰⵎ/aY   .
+
+SFX	G	Y	1
+SFX	G	0	ⴰⵎⵜ/aY   .
+
+SFX	H	Y	1
+SFX	H	0	ⴰⵏ   .
+
+SFX	I	Y	1
+SFX	I	0	ⴰⵏⵜ   .
+
+#Pronoms personnels dépendants objets,
+
+SFX	P	Y	9
+SFX	P	0	ⵢⵉ   .
+SFX	P	0	ⴰⴽ   .
+SFX	P	0	ⴰⵎ   .
+SFX	P	0	ⴰⵙ   .
+SFX	P	0	ⴰⵖ   .
+SFX	P	0	ⴰⵡⴰⵏ   .
+SFX	P	0	ⴰⵡⴰⵏⵜ   .
+SFX	P	0	ⴰⵙⴰⵏ   .
+SFX	P	0	ⴰⵙⴰⵏⵜ   .
+
+#Affixations des moms,
+
+PFX	m	Y	1
+PFX	m	0	ⵜ/Y   .
+
+PFX	n	Y	1
+PFX	n	0	ⵜ   .
+
+SFX	M	Y	1
+SFX	M	0	ⵜ/mY   .
+
+
+
+
+
